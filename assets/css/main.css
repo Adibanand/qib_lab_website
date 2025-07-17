@@ -2685,7 +2685,7 @@ input, select, textarea {
 			button.primary:active,
 			.button.primary:hover,
 			.button.primary:active {
-				background-color: #9bf1ff;
+				background-color: #242943;
 				color: #242943 !important;
 			}
 
@@ -3153,11 +3153,11 @@ input, select, textarea {
 			}
 
 			#header .logo:hover strong {
-				background-color: #9bf1ff;
+				background-color: #242943;
 			}
 
 			#header .logo:active strong {
-				background-color: #53e3fb;
+				background-color: #242943;
 			}
 
 		#header nav {
@@ -3424,6 +3424,9 @@ input, select, textarea {
 
 		#banner h1 {
 			font-size: 3.25em;
+			max-width: 90%;
+  			word-wrap: break-word;
+  			overflow-wrap: break-word;
 		}
 
 		#banner > .inner {
