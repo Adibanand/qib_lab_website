@@ -160,11 +160,11 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #9bf1ff !important;
+			color: #38026e !important;
 		}
 
 		a:active {
-			color: #53e3fb !important;
+			color: #38026e !important;
 		}
 
 	strong, b {
@@ -2151,11 +2151,11 @@ input, select, textarea {
 	}
 
 	a.icon.alt:hover:before {
-		background-color: #6fc3df;
+		background-color: #2b0087;
 	}
 
 	a.icon.alt:active:before {
-		background-color: #37a6cb;
+		background-color: #13167e;
 	}
 
 /* Image */
@@ -3069,7 +3069,7 @@ input, select, textarea {
 
 		100% {
 			top: 0;
-			opacity: 1;
+			opacity: 0;
 		}
 	}
 
@@ -3081,7 +3081,7 @@ input, select, textarea {
 
 		100% {
 			top: 0;
-			opacity: 1;
+			opacity: 0;
 		}
 	}
 
