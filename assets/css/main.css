@@ -1941,8 +1941,8 @@ input, select, textarea {
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #9bf1ff;
-			box-shadow: 0 0 0 2px #9bf1ff;
+			border-color: #281367;
+			box-shadow: 0 0 0 2px #281367;
 		}
 
 	select {
@@ -2041,14 +2041,14 @@ input, select, textarea {
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
-			border-color: #9bf1ff;
+			border-color: #281367;
 			content: '\f00c';
 			color: #242943;
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #9bf1ff;
+			box-shadow: 0 0 0 2px #281367;
 		}
 
 	input[type="radio"] + label:before {
@@ -2402,12 +2402,12 @@ input, select, textarea {
 				}
 
 					ul.pagination li > .page.active:hover {
-						background-color: #9bf1ff;
+						background-color: #281367;
 						color: #242943 !important;
 					}
 
 					ul.pagination li > .page.active:active {
-						background-color: #53e3fb;
+						background-color: #281367;
 					}
 
 			ul.pagination li:first-child {
@@ -2541,8 +2541,8 @@ input, select, textarea {
 		button:active,
 		.button:hover,
 		.button:active {
-			box-shadow: inset 0 0 0 2px #9bf1ff;
-			color: #9bf1ff;
+			box-shadow: inset 0 0 0 2px #281367;
+			color: #281367;
 		}
 
 		input[type="submit"]:active,
@@ -3380,7 +3380,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/milkyway.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3400,7 +3400,7 @@ input, select, textarea {
 		top: -3.25em;
 	}
 
-		#banner:after {
+		/* #banner:after {
 			-moz-transition: opacity 2.5s ease;
 			-webkit-transition: opacity 2.5s ease;
 			-ms-transition: opacity 2.5s ease;
@@ -3420,7 +3420,7 @@ input, select, textarea {
 			top: 0;
 			width: 100%;
 			z-index: 1;
-		}
+		} */
 
 		#banner h1 {
 			font-size: 3.25em;
