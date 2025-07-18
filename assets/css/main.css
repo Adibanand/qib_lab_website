@@ -3708,6 +3708,50 @@ input, select, textarea {
 
 		}
 
+	/* Group */
+	.group {
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 2em;
+	}
+
+	.group h2 {
+		font-size: 1.5em;
+		margin-top: 2.5em;
+		border-bottom: 1px dashed #ccc;
+		padding-bottom: 0.5em;
+		color: #341f97;
+	}
+
+	.member {
+		display: flex;
+		align-items: flex-start;
+		margin: 2em 0;
+		gap: 2em;
+	}
+
+	.member img {
+		width: 160px;
+		height: auto;
+		border-radius: 4px;
+		object-fit: cover;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	}
+
+	.member .info {
+		font-size: 1em;
+		line-height: 1.6;
+	}
+
+	.member .info a {
+		color: #6c5ce7;
+		text-decoration: none;
+	}
+
+.member .info a:hover {
+	text-decoration: underline;
+}
+
 /* Footer */
 
 	#footer .copyright {
