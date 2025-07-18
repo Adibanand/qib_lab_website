@@ -3709,6 +3709,16 @@ input, select, textarea {
 		}
 
 	/* Group */
+
+	.people-section {
+		background-image: url("images/ligohanford.jpg"); /* or your image path */
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		color: white;
+		padding: 4em 0;
+	}
+
 	.group {
 		max-width: 800px;
 		margin: 0 auto;
@@ -3716,11 +3726,11 @@ input, select, textarea {
 	}
 
 	.group h2 {
-		font-size: 1.5em;
-		margin-top: 2.5em;
-		border-bottom: 1px dashed #ccc;
-		padding-bottom: 0.5em;
-		color: #341f97;
+	border-top: 2px solid white;
+	padding-top: 1.5em;
+	margin-top: 3em;
+	color: white;
+	font-size: 1.5em;
 	}
 
 	.member {
@@ -3728,6 +3738,7 @@ input, select, textarea {
 		align-items: flex-start;
 		margin: 2em 0;
 		gap: 2em;
+		padding: 2em 2em 2em 3em
 	}
 
 	.member img {
