@@ -2095,6 +2095,27 @@ input, select, textarea {
 			padding: 0;
 		}
 
+/* Publications */
+	#publications h2, #publications h3 {
+	color: #2a2a2a;
+	margin-top: 1em;
+	}
+
+	#publications ol {
+	margin-left: 1.25em;
+	}
+
+	#publications li {
+	margin-bottom: 1.5em;
+	}
+
+	#publications ul {
+	margin-top: 0.5em;
+	margin-left: 1.5em;
+	font-size: 0.95em;
+	}
+
+
 /* Icon */
 
 	.icon {
