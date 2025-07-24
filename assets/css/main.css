@@ -2097,23 +2097,34 @@ input, select, textarea {
 
 /* Publications */
 	#publications h2, #publications h3 {
-	color: #2a2a2a;
-	margin-top: 1em;
+	color: white;
+	margin-top: 2em;
 	}
 
 	#publications ol {
-	margin-left: 1.25em;
+	margin-left: 1.5em;
 	}
 
 	#publications li {
 	margin-bottom: 1.5em;
+	line-height: 1.6;
 	}
 
 	#publications ul {
 	margin-top: 0.5em;
-	margin-left: 1.5em;
+	margin-left: 1.25em;
 	font-size: 0.95em;
 	}
+
+	#publications a {
+	color: #aad1ff;
+	text-decoration: underline dotted;
+	}
+
+	#publications a:hover {
+	color: #ffffff;
+	}
+
 
 
 /* Icon */
